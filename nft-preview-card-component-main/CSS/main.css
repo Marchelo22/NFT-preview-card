@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.attribution{
+    margin: 2%;
+    font-size: 11px; text-align: center;
+    color: white;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.mainContainer{
+    background-color:  hsl(216, 50%, 16%);
+    margin: 0 auto;
+    margin-top: 2%;
+    font-family: 'Outfit', sans-serif;
+    width: 320px;
+    height: 500px;
+    border: 1px solid hsl(215, 32%, 27%);
+    box-shadow: 10px 10px hsl(215, 48%, 14%);
+    border-radius: 2%;
+}
+.mainContainer img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.mainContainer #imageEquilibrium:hover{
+    opacity: 0.5;
+    background-image: url(../images/icon-view.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.mainContainer #imageEquilibrium:hover .middle{
+    opacity: 1;
+} 
+.mainContainer h3{
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.mainContainer #description{
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+    margin-right: auto;
+    padding: 10px;
+}
+.mainContainer h5{
+    color: hsl(178, 100%, 50%);
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.mainContainer .hrow{
+    border-top: 1px solid hsl(215, 66%, 46%);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainContainer #clock{
+    color: hsl(215, 51%, 70%);
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+}
+.clr{
+    clear: both;
+}
+.avatar img{
+    float: left;
+    border: 1.5px solid hsl(215, 66%, 46%);
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.avatar p{
+    float: right;
+    color: hsl(215, 51%, 70%);
+    margin-top: 37px;
+    margin-right: 55px;
+}
